@@ -30,7 +30,8 @@ const Hero = () => {
 
                     <div className="flex flex-col items-center justify-center">
                         {/* Main Gradient Text */}
-                        <h1 className="font-semibold text-2xl md:text-[74px] md:leading-[91px] tracking-[-1px] md:tracking-[-4px] text-center">
+                        <h1 className="font-semibold text-xs md:text-[74px] md:leading-[91px] tracking-[-1px] md:tracking-[-4px] text-center
+">
                             This AI Pulls 1-Hour YouTube Videos Into a
                             <span className='hero_text_1'> Rear–Nekkid Choke </span>
                             and Doesn’t Let Go Till It *Spits Out* a
@@ -38,6 +39,7 @@ const Hero = () => {
                         </h1>
 
                         {/* Subtext */}
+
                         <p className="text-center text-[15px] md:text-[54px] leading-[32px] md:leading-[91px] tracking-[-1px] md:tracking-[-3px] font-normal">
                             <span className="sub_text_1">Kiss Ad Hell</span>
                             <span className="font-medium text-black"> (and Brain Farts) </span>
@@ -46,8 +48,10 @@ const Hero = () => {
                         </p>
 
 
-                        <button className='px-4 py-4 md:py-7 my-4 md:my-12 cursor-pointer w-full max-w-[358px] md:max-w-[716px] text-center justify-center rounded-[11px] gap-[10px] bg-[#009EFF] font-bold text-base md:text-[33px] tracking-[-0.5%] text-white flex items-center'>
-                            <img src={Stars} alt="stars" loading='lazy' className='h-5 md:h-9' />
+                        <button className='px-2 py-[20px] md:py-[20px] my-2 md:my-6 cursor-pointer w-full max-w-[179px] md:max-w-[358px] text-center justify-center rounded-[5.5px] gap-[5px] bg-[#009EFF] font-bold text-[19px] md:text-[19px] tracking-[-0.25%] text-white flex items-center
+'>
+                            <img src={Stars} alt="stars" loading='lazy' className='h-[25px] md:h-[25px]
+' />
                             TRY IT FOR FREE
                         </button>
                     </div>
